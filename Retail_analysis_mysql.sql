@@ -2,14 +2,14 @@ CREATE DATABASE TATASales;
 USE TATASales;
 
 CREATE TABLE Onlineretail(
-  InvoiceNo int,
-  StockCode int,
-  Description text,
-  Quantity int,
-  InvoiceDate text,
-  UnitPrice double,
-  CustomerID int,
-  Country text
+  InvoiceNo INT,
+  StockCode INT,
+  Description TEXT,
+  Quantity INT,
+  InvoiceDate DATETIME,
+  UnitPrice DOUBLE,
+  CustomerID INT,
+  Country VARCHAR(100);
   );
  
 SELECT * from onlineretail;
